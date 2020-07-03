@@ -1,0 +1,43 @@
+name: Build README
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - name: Set up Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "14.x"
+      - uses: actions/cache@v2
+        name: Configure node caching
+        with:
+          path: |
+            ~/cache
+            !~/cache/exclude
+            **/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
+      - name: Install Node dependencies
+        run: |
+          npm install
+      - name: Update README
+        env:
+          NEENJAW_TOKEN: ${{ secrets.NEENJAW_TOKEN }}
+        run: |-
+          npm run compile && node build/build.js
+          cat README.md
+      - name: Commit and push if changed
+        run: |-
+          git diff
+          git config --global user.email "readme-bot@neenjaw.com"
+          git config --global user.name "README-bot"
+          git add ./README.md
+          git commit -m "Updated content" || exit 0
+          git push
