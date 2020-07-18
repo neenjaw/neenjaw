@@ -2,35 +2,12 @@ import axios, { AxiosResponse } from "axios";
 import cheerio from "cheerio";
 import fs from "fs";
 
-type Solution = {
-  title: string;
-  track: string;
-  date: {
-    year: string;
-    month: string;
-    day: string;
-  };
-  date_obj: Date;
-};
+import Handlebars from "handlebars";
+import { registerAllHelpers } from "./helpers";
+registerAllHelpers(Handlebars);
 
-const month = new Map<string, string>([
-  ["Jan", "01"],
-  ["Feb", "02"],
-  ["Mar", "03"],
-  ["Apr", "04"],
-  ["May", "05"],
-  ["Jun", "06"],
-  ["Jul", "07"],
-  ["Aug", "08"],
-  ["Sep", "09"],
-  ["Oct", "10"],
-  ["Nov", "11"],
-  ["Dec", "12"],
-]);
-
-const compareSolutionsByDate = (a: Solution, b: Solution) => b.date_obj.getTime() - a.date_obj.getTime();
-
-const mentorUrl = "https://exercism.io/profiles/neenjaw";
+import { Solution, monthMap, compareSolutionsByDate, mentorUrl } from "./scrape";
+import * as readmeData from "./data";
 
 axios.get(mentorUrl).then((response: AxiosResponse) => {
   const $ = cheerio.load(response.data);
@@ -45,10 +22,10 @@ axios.get(mentorUrl).then((response: AxiosResponse) => {
         track: el$.find("div.track").text().slice(0, -6),
         date: {
           year: date[2],
-          month: month.get(date[0]),
+          month: monthMap.get(date[0]),
           day: date[1],
         },
-        date_obj: new Date(`${date[2]}-${month.get(date[0])}-${date[1]}`),
+        date_obj: new Date(`${date[2]}-${monthMap.get(date[0])}-${date[1]}`),
       };
     })
     .toArray());
@@ -61,43 +38,19 @@ axios.get(mentorUrl).then((response: AxiosResponse) => {
 });
 
 function buildReadme(solutions: Solution[], helpedCount: string) {
-  function imageUrl(language: string, slug: string) {
-    return `${language} <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/${slug}.png" alt="${language} Language" width="16px" height="16px">`;
-  }
+  const templateSource = fs.readFileSync("./readme_template.hbs", { encoding: "utf-8" });
+  const template = Handlebars.compile(templateSource);
 
-  let output = `👋 Hi there! I'm Tim.
+  const data = {
+    solutions: solutions.slice(0, 5),
+    favorite: readmeData.favorites,
+    know: readmeData.know,
+    learning: readmeData.learning,
+    other: readmeData.other,
+    links: readmeData.links,
+    helpedCount: helpedCount,
+  };
 
-I like developing software. My favorite languages are:
-
-  - ${imageUrl("JavaScript", "javascript")} (${imageUrl("TypeScript", "typescript")})
-  - ${imageUrl("Elixir", "elixir")}
-  - ${imageUrl("Python", "python")}
-
-I know some:
-
-  - ${imageUrl("Java", "java")}
-  - ${imageUrl("C", "c-lang")}
-
-And right now I am learning:
-
-  - ${imageUrl("Ruby", "ruby")}
-
----
-
-Here what I have been up to on exercism.io (one of my favorite hangouts):
-
-  - I have helped ${helpedCount} students learn programming.
-  - Some recent solutions I've completed:
-`;
-
-  output += solutions
-    .slice(0, 5)
-    .map((s) => `    - ${s.title} (${s.track}) on ${s.date.year}-${s.date.month}-${s.date.day}`)
-    .join("\n");
-
-  output += `
-  (This README is re-generated every 45min! See how this is done [here](https://github.com/neenjaw/neenjaw/blob/master/.github/workflows/build.yaml))
-  `;
-
+  const output = template(data);
   fs.writeFileSync("./README.md", output);
 }

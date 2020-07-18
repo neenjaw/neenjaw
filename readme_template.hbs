@@ -1,0 +1,51 @@
+
+## Hi there! I'm Tim. 👋<br/><br/>I like developing software.
+
+<table><tr><td valign="top" width="50%">
+
+My favorite languages are:
+
+{{#each favorite}}
+- {{print_item name slug}}
+{{/each}}
+
+I also like:
+
+{{#each know}}
+- {{print_item name slug}}
+{{/each}}
+
+And right now I am learning:
+
+{{#each learning}}
+- {{print_item name slug}}
+{{/each}}
+
+</td><td valign="top" width="50%">
+
+Other technologies I have used:
+
+{{#each other}}
+- {{print_item name slug}}
+{{/each}}
+
+Other places to find me:
+
+{{#each links}}
+- {{print_link icon name url}}
+{{/each}}
+
+</td></tr><tr><td colspan="2" valign="top" width="50%">
+
+Here's what I have been up to on [Exercism.io](https://exercism.io) (one of my favorite programming hangouts)&#58;
+
+- I have helped {{helpedCount}} students learn programming.
+- Some recent solutions I've completed&#58;
+
+{{#each solutions}}
+  - {{title}} ({{track}}) on {{date.year}}-{{date.month}}-{{date.day}}
+{{/each}}
+
+</td></tr></table>
+
+(This README is re-generated every hour! See how this is done [here](https://github.com/neenjaw/neenjaw/blob/master/.github/workflows/build.yaml))

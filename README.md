@@ -1,28 +1,83 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71d9b93... Updated content
+<table style="width: 100%; border: 0; border-bottom: 1px solid gray"><tr><td style="border: 0;" colspan="2">
+=======
+<table style="width: 100%; border: 0;"><tr><td style="border: 0;" colspan="2">
+>>>>>>> 075de83... Updated content
+
+=======
+>>>>>>> 52f1b77... Updated content
 👋 Hi there! I'm Tim.
+=======
 
-I like developing software. My favorite languages are:
+<<<<<<< HEAD
+# 👋 Hi there! I'm Tim.
+>>>>>>> 4db4b18... Updated content
 
-  - JavaScript <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/typescript.png" alt="JavaScript Language" width="16px" height="16px"> (TypeScript <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/typescript.png" alt="TypeScript Language" width="16px" height="16px">)
-  - Elixir <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/elixir.png" alt="Elixir Language" width="16px" height="16px">
-  - Python <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/python.png" alt="Python Language" width="16px" height="16px">
+## I like developing software.
+=======
+## 👋 Hi there! I'm Tim.<br/>I like developing software.
+>>>>>>> 1285f3a... Updated content
+=======
 
-I know some:
+## Hi there! I'm Tim. 👋<br/><br/>I like developing software.
+>>>>>>> f6a7da3... Updated content
 
-  - Java <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/java.png" alt="Java Language" width="16px" height="16px">
-  - C <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/c-lang.png" alt="C Language" width="16px" height="16px">
+<table><tr><td valign="top" width="50%">
+
+My favorite languages are:
+
+- JavaScript <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/javascript.png" alt="Logo for JavaScript" width="16px" height="16px">
+- TypeScript <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/typescript.png" alt="Logo for TypeScript" width="16px" height="16px">
+- Elixir <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/elixir.png" alt="Logo for Elixir" width="16px" height="16px">
+- Python <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/python.png" alt="Logo for Python" width="16px" height="16px">
+
+I also like:
+
+- Java <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/java.png" alt="Logo for Java" width="16px" height="16px">
+- C <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/c-lang.png" alt="Logo for C" width="16px" height="16px">
 
 And right now I am learning:
 
-  - Ruby <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/ruby.png" alt="Ruby Language" width="16px" height="16px">
+- Ruby <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/ruby.png" alt="Logo for Ruby" width="16px" height="16px">
 
----
+</td><td valign="top" width="50%">
 
-Here what I have been up to on exercism.io (one of my favorite hangouts):
+Other technologies I have used:
 
-  - I have helped 424 students learn programming.
-  - Some recent solutions I've completed:
-    - Series (Ruby) on 2020-07-10
-    - RNA Transcription (Ruby) on 2020-07-09
-    - Leap (Ruby) on 2020-07-09
-    - Matrix (Ruby) on 2020-07-09
-    - High Scores (Ruby) on 2020-07-07
+- Go <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/golang.png" alt="Logo for Go" width="16px" height="16px">
+- PHP <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/php.png" alt="Logo for PHP" width="16px" height="16px">
+- MySql <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/mysql.png" alt="Logo for MySql" width="16px" height="16px">
+- PostgreSQL <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/postgresql.png" alt="Logo for PostgreSQL" width="16px" height="16px">
+- React <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/react.png" alt="Logo for React" width="16px" height="16px">
+- Redux <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/redux.png" alt="Logo for Redux" width="16px" height="16px">
+- RxJS <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/rxjs.png" alt="Logo for RxJS" width="16px" height="16px">
+
+Other places to find me:
+
+- <a href="https://twitter.com/yxe_tim"><img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/twitter.png" alt="Logo for twitter" width="16px" height="16px"> yxe_tim</a>
+- <a href="https://codepen.io/collection/Axyobk"><img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/codepen.png" alt="Logo for codepen" width="16px" height="16px"> tim @ codepen</a>
+- <a href="https://www.freecodecamp.org/yxe_tim"><img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/freecodecamp.png" alt="Logo for freecodecamp" width="16px" height="16px"> tim @ freecodecamp</a>
+
+</td></tr><tr><td colspan="2" valign="top" width="50%">
+
+Here's what I have been up to on [Exercism.io](https://exercism.io) (one of my favorite programming hangouts)&#58;
+
+- I have helped 425 students learn programming.
+- Some recent solutions I've completed&#58;
+
+  - Series (Ruby) on 2020-07-10
+  - RNA Transcription (Ruby) on 2020-07-09
+  - Leap (Ruby) on 2020-07-09
+  - Matrix (Ruby) on 2020-07-09
+  - High Scores (Ruby) on 2020-07-07
+
+</td></tr></table>
+
+(This README is re-generated every hour! See how this is done [here](https://github.com/neenjaw/neenjaw/blob/master/.github/workflows/build.yaml))
