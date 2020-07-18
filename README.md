@@ -28,5 +28,5 @@ Here what I have been up to on exercism.io (one of my favorite hangouts):
     - High Scores (Ruby) on 2020-07-07
 
 
-  (This README is re-generated every 45min! See how this is done [here](https://github.com/neenjaw/neenjaw/blob/master/.github/workflows/build.yaml))
+  (This README is re-generated every hour! See how this is done [here](https://github.com/neenjaw/neenjaw/blob/master/.github/workflows/build.yaml))
   
