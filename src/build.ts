@@ -95,5 +95,9 @@ Here what I have been up to on exercism.io (one of my favorite hangouts):
     .map((s) => `    - ${s.title} (${s.track}) on ${s.date.year}-${s.date.month}-${s.date.day}`)
     .join("\n");
 
+  output += `
+  (This README is re-generated every 45min! See how this is done [here](https://github.com/neenjaw/neenjaw/blob/master/.github/workflows/build.yaml))
+  `;
+
   fs.writeFileSync("./README.md", output);
 }
