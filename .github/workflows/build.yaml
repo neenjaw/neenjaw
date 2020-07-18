@@ -35,7 +35,7 @@ jobs:
           cat README.md
       - name: Commit and push if changed
         run: |-
-          git diff HEAD~1 ./README.md
+          git diff
           git config --global user.email "readme-bot@neenjaw.com"
           git config --global user.name "README-bot"
           git add ./README.md
