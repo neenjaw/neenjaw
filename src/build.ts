@@ -64,8 +64,8 @@ function buildReadme(solutions: Solution[], helpedCount: string) {
   function imageUrl(language: string, slug: string) {
     return `${language} <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/blob/master/img/${slug}.png" alt="${language} Language" width="16px" height="16px">`;
   }
-  //github.com/neenjaw/neenjaw/blob/master/img/c-lang.png?raw=true
-  https: let output = `👋 Hi there! I'm Tim.
+
+  let output = `👋 Hi there! I'm Tim.
 
 I like developing software. Am not tied to a particular ecosystem, but I like:
 
