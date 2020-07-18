@@ -69,7 +69,7 @@ function buildReadme(solutions: Solution[], helpedCount: string) {
 
 I like developing software. My favorite languages are:
 
-  - ${imageUrl("JavaScript", "typescript")} (${imageUrl("TypeScript", "typescript")})
+  - ${imageUrl("JavaScript", "javascript")} (${imageUrl("TypeScript", "typescript")})
   - ${imageUrl("Elixir", "elixir")}
   - ${imageUrl("Python", "python")}
 
