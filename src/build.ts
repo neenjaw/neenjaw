@@ -67,7 +67,7 @@ function buildReadme(solutions: Solution[], helpedCount: string) {
 
   let output = `👋 Hi there! I'm Tim.
 
-I like developing software. Am not tied to a particular ecosystem, but I like:
+I like developing software. My favorite languages are:
 
   - ${imageUrl("JavaScript", "typescript")} (${imageUrl("TypeScript", "typescript")})
   - ${imageUrl("Elixir", "elixir")}
