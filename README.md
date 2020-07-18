@@ -1,6 +1,6 @@
 👋 Hi there! I'm Tim.
 
-I like developing software. Am not tied to a particular ecosystem, but I like:
+I like developing software. My favorite languages are:
 
   - JavaScript <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/typescript.png" alt="JavaScript Language" width="16px" height="16px"> (TypeScript <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/typescript.png" alt="TypeScript Language" width="16px" height="16px">)
   - Elixir <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/elixir.png" alt="Elixir Language" width="16px" height="16px">
