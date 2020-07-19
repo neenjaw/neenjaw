@@ -1,33 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 71d9b93... Updated content
-<table style="width: 100%; border: 0; border-bottom: 1px solid gray"><tr><td style="border: 0;" colspan="2">
-=======
-<table style="width: 100%; border: 0;"><tr><td style="border: 0;" colspan="2">
->>>>>>> 075de83... Updated content
-
-=======
->>>>>>> 52f1b77... Updated content
-👋 Hi there! I'm Tim.
-=======
-
-<<<<<<< HEAD
-# 👋 Hi there! I'm Tim.
->>>>>>> 4db4b18... Updated content
-
-## I like developing software.
-=======
-## 👋 Hi there! I'm Tim.<br/>I like developing software.
->>>>>>> 1285f3a... Updated content
-=======
 
 ## Hi there! I'm Tim. 👋<br/><br/>I like developing software.
->>>>>>> f6a7da3... Updated content
 
 <table><tr><td valign="top" width="50%">
 
