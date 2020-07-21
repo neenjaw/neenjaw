@@ -4,7 +4,9 @@
   "description": "Github Profile Builder",
   "main": "index.js",
   "scripts": {
-    "compile": "rimraf ./build && ./node_modules/typescript/bin/tsc",
+    "clean": "rimraf ./build",
+    "compile": "rpm run clean && ./node_modules/typescript/bin/tsc && node build/build.js",
+    "compile-svg": "npm run clean && node src/badge.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,9 +27,11 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
+    "@svgdotjs/svg.js": "^3.0.16",
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
-    "handlebars": "^4.7.6"
+    "handlebars": "^4.7.6",
+    "svgdom": "^0.1.8"
   },
   "prettier": {
     "printWidth": 120
