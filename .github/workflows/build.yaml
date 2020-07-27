@@ -31,7 +31,7 @@ jobs:
         env:
           NEENJAW_TOKEN: ${{ secrets.NEENJAW_TOKEN }}
         run: |-
-          npm run compile && node build/build.js
+          npm run compile && node build/badge/build.js
           cat README.md
       - name: Commit and push if changed
         run: |-
