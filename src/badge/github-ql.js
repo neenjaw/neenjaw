@@ -1,5 +1,5 @@
 const axios = require("axios");
-const token = process.env.NEENJAW_TOKEN;
+const token = process.env.GITHUB_TOKEN;
 
 const githubEndpoint = "https://api.github.com/graphql";
 

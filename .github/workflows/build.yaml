@@ -29,7 +29,7 @@ jobs:
           npm install
       - name: Update README
         env:
-          NEENJAW_TOKEN: ${{ secrets.NEENJAW_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |-
           node src/badge/build.js
           cat README.md
