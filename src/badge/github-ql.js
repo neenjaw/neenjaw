@@ -15,7 +15,14 @@ function request(data, headers) {
 function queryStats() {
   data = getQuery();
   header = getHeader();
-  return request(data, header);
+  return request(data, header)
+    .then((response) => response.data.data)
+    .catch((err) => {
+      console.error(err);
+      return {
+        error: "Problem occurred fetching stats.",
+      };
+    });
 }
 
 function getQuery() {
