@@ -59,3 +59,7 @@ function getHeader() {
     Authorization: `bearer ${token}`,
   };
 }
+
+module.exports = {
+  queryStats,
+};
