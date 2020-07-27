@@ -15,7 +15,7 @@ Promise.all([githubPromise, scrapePromise])
       },
       solutions,
     ]) => {
-      console.log({ details, helped: solutions.helpedCount, solns: solutions.solutions.slice(0, 2) });
+      console.log({ response, helped: solutions.helpedCount, solns: solutions.solutions.slice(0, 2) });
 
       // create canvas
       const canvas = SVG(document.documentElement).size(500, 300);
