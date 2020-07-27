@@ -9,7 +9,7 @@ const scrapePromise = scrape(mentorUrl);
 
 Promise.all([githubPromise, scrapePromise])
   .then(([details, solutions]) => {
-    console.log({ details, solutions: solutions.data.slice(0, 5) });
+    console.log({ details, solutions });
     console.log(solutions.slice(0, 2));
 
     // create canvas
