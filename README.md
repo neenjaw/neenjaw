@@ -44,11 +44,11 @@ Here's what I have been up to on [Exercism.io](https://exercism.io) (one of my f
 - I have helped 426 students learn programming.
 - Some recent solutions I've completed&#58;
 
+  - Hamming (Ruby) on 2020-08-06
   - Word Count (Ruby) on 2020-07-20
   - Series (Ruby) on 2020-07-10
   - RNA Transcription (Ruby) on 2020-07-09
   - Leap (Ruby) on 2020-07-09
-  - Matrix (Ruby) on 2020-07-09
 
 </td></tr></table>
 
