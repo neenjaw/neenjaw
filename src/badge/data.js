@@ -26,9 +26,9 @@ const other = [
 ];
 
 const links = [
-  { icon: "twitter", name: "yxe_tim", url: "https://twitter.com/yxe_tim" },
-  { icon: "codepen", name: "tim @ codepen", url: "https://codepen.io/collection/Axyobk" },
-  { icon: "freecodecamp", name: "tim @ freecodecamp", url: "https://www.freecodecamp.org/yxe_tim" },
+  { icon: "./img/twitter.png", name: "yxe_tim", url: "https://twitter.com/yxe_tim" },
+  { icon: "./img/codepen.png", name: "tim @ codepen", url: "https://codepen.io/collection/Axyobk" },
+  { icon: "./img/freecodecamp.png", name: "tim @ freecodecamp", url: "https://www.freecodecamp.org/yxe_tim" },
 ];
 
 module.exports = {
