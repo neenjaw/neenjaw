@@ -45,10 +45,10 @@ Here's what I have been up to on [Exercism.io](https://exercism.io) (one of my f
 - Some recent solutions I've completed&#58;
 
   - Bank Account (Java) on 2020-08-24
+  - Space Age (Ruby) on 2020-08-24
+  - Triangle (Ruby) on 2020-08-24
   - Hello World (PHP) on 2020-08-24
   - Hamming (PHP) on 2020-08-24
-  - Raindrops (Ruby) on 2020-08-15
-  - Robot Name (Go) on 2020-08-06
 
 </td></tr></table>
 
