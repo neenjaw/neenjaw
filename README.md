@@ -41,7 +41,7 @@ Other places to find me:
 
 Here's what I have been up to on [Exercism.io](https://exercism.io) (one of my favorite programming hangouts)&#58;
 
-- I have helped 426 students learn programming.
+- I have helped 433 students learn programming.
 - Some recent solutions I've completed&#58;
 
   - Bank Account (Java) on 2020-08-24
