@@ -12,19 +12,20 @@ My favorite languages are:
 
 I also like:
 
+- PHP <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/php.png" alt="Logo for PHP" width="16px" height="16px">
 - Java <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/java.png" alt="Logo for Java" width="16px" height="16px">
 - C <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/c-lang.png" alt="Logo for C" width="16px" height="16px">
+- Ruby <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/ruby.png" alt="Logo for Ruby" width="16px" height="16px">
 
 And right now I am learning:
 
-- Ruby <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/ruby.png" alt="Logo for Ruby" width="16px" height="16px">
+- GraphQL
 
 </td><td valign="top" width="50%">
 
 Other technologies I have used:
 
 - Go <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/golang.png" alt="Logo for Go" width="16px" height="16px">
-- PHP <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/php.png" alt="Logo for PHP" width="16px" height="16px">
 - MySql <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/mysql.png" alt="Logo for MySql" width="16px" height="16px">
 - PostgreSQL <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/postgresql.png" alt="Logo for PostgreSQL" width="16px" height="16px">
 - React <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/react.png" alt="Logo for React" width="16px" height="16px">
