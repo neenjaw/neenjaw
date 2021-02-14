@@ -6,15 +6,19 @@ export const favorites = [
 ];
 
 export const know = [
+  { name: "PHP", slug: "php" },
+  { name: "Ruby", slug: "ruby" },
   { name: "Java", slug: "java" },
   { name: "C", slug: "c-lang" },
 ];
 
-export const learning = [{ name: "Ruby", slug: "ruby" }];
+export const learning = [
+  { name: "GraphQL", slug: "graphql" },
+  { name: "Apollo", slug: "apollo" },
+];
 
 export const other = [
   { name: "Go", slug: "golang" },
-  { name: "PHP", slug: "php" },
   { name: "MySql", slug: "mysql" },
   { name: "PostgreSQL", slug: "postgresql" },
   { name: "React", slug: "react" },
