@@ -13,13 +13,14 @@ My favorite languages are:
 I also like:
 
 - PHP <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/php.png" alt="Logo for PHP" width="16px" height="16px">
+- Ruby <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/ruby.png" alt="Logo for Ruby" width="16px" height="16px">
 - Java <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/java.png" alt="Logo for Java" width="16px" height="16px">
 - C <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/c-lang.png" alt="Logo for C" width="16px" height="16px">
-- Ruby <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/ruby.png" alt="Logo for Ruby" width="16px" height="16px">
 
 And right now I am learning:
 
-- GraphQL
+- GraphQL <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/graphql.png" alt="Logo for GraphQL" width="16px" height="16px">
+- Apollo <img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/apollo.png" alt="Logo for Apollo" width="16px" height="16px">
 
 </td><td valign="top" width="50%">
 
