@@ -35,7 +35,6 @@ Other technologies I have used:
 
 Other places to find me:
 
-- <a href="https://twitter.com/yxe_tim"><img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/twitter.png" alt="Logo for twitter" width="16px" height="16px"> yxe_tim</a>
 - <a href="https://codepen.io/collection/Axyobk"><img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/codepen.png" alt="Logo for codepen" width="16px" height="16px"> tim @ codepen</a>
 - <a href="https://www.freecodecamp.org/yxe_tim"><img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/freecodecamp.png" alt="Logo for freecodecamp" width="16px" height="16px"> tim @ freecodecamp</a>
 
