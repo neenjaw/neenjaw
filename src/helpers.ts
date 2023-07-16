@@ -16,6 +16,12 @@ const helpers = [
       return new SafeString(`<a href="${url}">${img} ${name}</a>`);
     },
   },
+  {
+    name: "print_book",
+    fn: function (emoji: string, name: string, url: string) {
+      return new SafeString(`<a href="${url}">${img} ${name}</a>`);
+    },
+  },
 ];
 
 export const registerAllHelpers = (instance: any) => {
