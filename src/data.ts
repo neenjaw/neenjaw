@@ -28,7 +28,7 @@ export const other = [
 ];
 
 export const links = [
-  { icon: "twitter", name: "yxe_tim", url: "https://twitter.com/yxe_tim" },
+  { icon: "elixir", name: "neenjaw @ Exercism.org", url: "https://exercism.org/profiles/neenjaw" }, 
   { icon: "codepen", name: "tim @ codepen", url: "https://codepen.io/collection/Axyobk" },
   { icon: "freecodecamp", name: "tim @ freecodecamp", url: "https://www.freecodecamp.org/yxe_tim" },
 ];
