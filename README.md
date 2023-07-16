@@ -18,6 +18,8 @@ I also like:
 
 And right now I am learning:
 
+- [Software Mistakes and Tradeoffs](https://www.manning.com/books/software-mistakes-and-tradeoffs)
+
 </td><td valign="top" width="50%">
 
 Other technologies I have used:
