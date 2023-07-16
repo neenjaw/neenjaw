@@ -41,7 +41,7 @@ Other places to find me:
 
 </td></tr><tr><td colspan="2" valign="top" width="50%">
 
-Here's what I have been up to on [Exercism.io](https://exercism.io) (one of my favorite programming hangouts)&#58;
+Here's what I have been up to on [Exercism.org](https://exercism.org) (one of my favorite programming hangouts)&#58;
 
 - I have helped 457 students learn programming.
 - Some recent solutions I've completed&#58;
