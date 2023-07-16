@@ -13,7 +13,7 @@ export const know = [
 ];
 
 export const learning = [
-  { name: "[Software Mistakes and Tradeoffs](https://www.manning.com/books/software-mistakes-and-tradeoffs)", slug: "📖" }
+  { name: "Software Mistakes and Tradeoffs", slug: "📖", url: "https://www.manning.com/books/software-mistakes-and-tradeoffs" }
 ];
 
 export const other = [
