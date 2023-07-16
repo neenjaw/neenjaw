@@ -40,14 +40,18 @@ Other places to find me:
 - <a href="https://codepen.io/collection/Axyobk"><img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/codepen.png" alt="Logo for codepen" width="16px" height="16px"> tim @ codepen</a>
 - <a href="https://www.freecodecamp.org/yxe_tim"><img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/freecodecamp.png" alt="Logo for freecodecamp" width="16px" height="16px"> tim @ freecodecamp</a>
 
-</td></tr><tr><td colspan="2" valign="top" width="50%">
+</td></tr>
+  <!--
+  <tr><td colspan="2" valign="top" width="50%">
 
-Here's what I have been up to on [Exercism.io](https://exercism.io) (one of my favorite programming hangouts)&#58;
+Here's what I have been up to on [Exercism.org](https://exercism.org) (one of my favourite programming hangouts)&#58;
 
 - I have helped  students learn programming.
 - Some recent solutions I've completed&#58;
 
 
-</td></tr></table>
+</td></tr>-->
+</table>
+
 
 (This README is re-generated every hour! See how this is done [here](https://github.com/neenjaw/neenjaw/blob/master/.github/workflows/build.yaml))
