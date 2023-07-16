@@ -1,20 +1,19 @@
 export const favorites = [
-  { name: "JavaScript", slug: "javascript" },
-  { name: "TypeScript", slug: "typescript" },
   { name: "Elixir", slug: "elixir" },
-  { name: "Python", slug: "python" },
+  { name: "Ruby", slug: "ruby" },
+  { name: "TypeScript", slug: "typescript" },
 ];
 
 export const know = [
   { name: "PHP", slug: "php" },
-  { name: "Ruby", slug: "ruby" },
   { name: "Java", slug: "java" },
   { name: "C", slug: "c-lang" },
+  { name: "Python", slug: "python" },
+  { name: "JavaScript", slug: "javascript" },
 ];
 
 export const learning = [
-  { name: "GraphQL", slug: "graphql" },
-  { name: "Apollo", slug: "apollo" },
+  { name: "[Software Mistakes and Tradeoffs](https://www.manning.com/books/software-mistakes-and-tradeoffs)", slug: "📖" }
 ];
 
 export const other = [
@@ -24,6 +23,8 @@ export const other = [
   { name: "React", slug: "react" },
   { name: "Redux", slug: "redux" },
   { name: "RxJS", slug: "rxjs" },
+  { name: "GraphQL", slug: "graphql" },
+  { name: "Apollo", slug: "apollo" },
 ];
 
 export const links = [
