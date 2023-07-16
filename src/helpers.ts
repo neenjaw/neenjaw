@@ -19,7 +19,7 @@ const helpers = [
   {
     name: "print_book",
     fn: function (emoji: string, name: string, url: string) {
-      return new SafeString(`<a href="${url}">${img} ${name}</a>`);
+      return new SafeString(`<a href="${url}">${emoji} ${name}</a>`);
     },
   },
 ];
