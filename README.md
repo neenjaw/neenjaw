@@ -11,5 +11,7 @@ My favorite languages are:
 
 Other places to find me:
 
+
+- <a href="https://www.neenjaw.com"><img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/ruby.png" alt="Logo for Ruby" width="16px" height="16px"> neenjaw.com</a>
 - <a href="https://exercism.org/profiles/neenjaw"><img src="https://raw.githubusercontent.com/neenjaw/neenjaw/master/img/elixir.png" alt="Logo for elixir" width="16px" height="16px"> neenjaw @ Exercism.org</a>
 
